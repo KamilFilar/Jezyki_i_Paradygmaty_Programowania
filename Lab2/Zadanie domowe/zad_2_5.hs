@@ -1,7 +1,7 @@
 module Solids where
 
 pyramidVolume :: Floating a => a -> a -> a
-pyramidVolume h a = (1/3)*a^2*h
+pyramidVolume h a = (1/3)*h*a^2
 
 {-
 *Solids> pyramidVolume 1 2

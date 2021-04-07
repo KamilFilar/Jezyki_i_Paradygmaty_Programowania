@@ -1,5 +1,4 @@
-module Solids
-where
+module Solids where
 
 -- objêtoœæ kuli
 sphereVolume :: Floating a => a -> a
@@ -16,7 +15,7 @@ sphereVolume r = (4/3)*pi*r^3
 
 -- objêtoœæ sto¿ka
 coneVolume :: Floating a => a -> a -> a
-coneVolume r h = (1/3)*pi*r^2*h
+coneVolume r h = (1/3)*pi*h*r^2
 
 {-
 *Solids> coneVolume 1 2

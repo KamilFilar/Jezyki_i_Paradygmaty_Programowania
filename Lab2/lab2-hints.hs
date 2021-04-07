@@ -43,8 +43,7 @@ infixl 6 -
 -}
 
 {-
-The + operator associates to the left with the strength of binding equal
-to 6, so the expression 2+ -3 is equivalent to (2+ -)3 and is incorrect.
+
 
 2+ -3  <=>  (2+ -)3
 -}

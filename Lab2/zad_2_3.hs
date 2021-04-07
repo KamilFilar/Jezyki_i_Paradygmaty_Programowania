@@ -14,7 +14,7 @@ Objêtoœæ kuli:
 
 ==================================
 Objêtoœæ sto¿ka:
-*Main> let coneVolume h r = (1/3)*pi*r^2*h
+*Main> let coneVolume h r = (1/3)*pi*h*r^2
 
    *Main> coneVolume 1 1
 1.0471975511965976
