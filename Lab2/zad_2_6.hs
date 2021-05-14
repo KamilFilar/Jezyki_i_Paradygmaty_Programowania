@@ -1,29 +1,30 @@
 module Math where
 
-f1 x = x - 2
-f1' x = x + (-2)
-f1'' = (+ (-2))
+f1 x = x - 2 {- Tradycyjny -}
+f1' x = x + (-2) {- Tradycyjny -}
+f1'' = (+ (-2)) {- Sekcja -}
 
-f2 x = mod x 5
-f2' x = x `mod` 5
-f2'' = (`mod` 5)
+f2 x = mod x 5  {- Tradycyjny -}
+f2' x = x `mod` 5 {- Tradycyjny -}
+f2'' = (`mod` 5)  {- Sekcja -}
 
-f3 x = x==10
-f3' = (==10)
+f3 x = x==10   {- Tradycyjny -}
+f3' = (==10)   {- Sekcja -}
 
-f4 x = x `div` 8
-f4' = (`div` 8)
+f4 x = x `div` 8  {- Tradycyjny -}
+f4' = (`div` 8)   {- Sekcja -}
 
-f5 x = x > 100
-f5' = (> 100)
+f5 x = x > 100  {- Tradycyjny -}
+f5' = (> 100)   {- Sekcja -}
 
-f6 x = rem 5 x
-f6' = (`rem` 5)
+f6 x = rem 5 x   {- Tradycyjny -}
+f6' = (`rem` 5)   {- Sekcja -}
 
-f7 x = 8 `div` x
-f7' = (`div` 8)
+f7 x = 8 `div` x  {- Tradycyjny -}
+f7' = (`div` 8)   {- Sekcja -}
 
-f8 x = x^3
+f8 x = x^3  {- Tradycyjny -}
+f8' = (^ 3) {- Sekcja -}
 
 {-
 *Math> f1 5

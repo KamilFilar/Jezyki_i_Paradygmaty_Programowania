@@ -1,6 +1,5 @@
 module Math where
 
-
 divides :: Int -> Int -> Bool
 divides k n | rem n k == 0 = True
             | otherwise = False
